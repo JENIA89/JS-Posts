@@ -1,0 +1,30 @@
+{
+  "name": "js-native-blog",
+  "version": "1.0.0",
+  "description": "js-native-blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development --open chrome.exe"
+  },
+  "keywords": [
+    "js",
+    "blog"
+  ],
+  "author": "Evgene Popolamov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^5.0.0-alpha.10",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
